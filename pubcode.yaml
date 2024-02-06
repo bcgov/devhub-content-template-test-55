@@ -1,0 +1,11 @@
+version: 1
+data_management_roles:
+  product_owner: Jen Reiher
+product_information:
+  ministry: CITZ
+  product_acronym: DHUB
+  product_description: A document to describe things we did this sprint
+  product_name: DEVHUB
+  program_area: DO
+product_technology_information:
+  hosting_platforms: Private-Cloud-Openshift

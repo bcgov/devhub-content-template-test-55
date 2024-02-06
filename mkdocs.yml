@@ -1,0 +1,12 @@
+site_name: "DevHub Sprint Review Docs"
+site_description: "A document to describe things we did this sprint"
+docs_dir: "docs"
+edit_uri: edit/main/docs/
+plugins:
+    - techdocs-core
+    - ezlinks
+markdown_extensions:
+    - markdown_inline_mermaid
+    - md_in_html
+    -   mkpatcher:
+            location: patcher.py

@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: devhub-sprint-review-docs
+  title: DevHub Sprint Review Docs
+  description: A document to describe things we did this sprint
+  annotations:
+    github.com/project-slug: bcgov/devhub-content-template-test-55
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    bcgovpubcode.gov.bc.ca/program_area: DO
+    bcgovpubcode.gov.bc.ca/product_name: DEVHUB
+    bcgovpubcode.gov.bc.ca/product_acronym: DHUB
+    bcgovpubcode.gov.bc.ca/product_owner: Jen Reiher
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:default/developer-experience
